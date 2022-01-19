@@ -1,0 +1,23 @@
+.total{
+  position: relative;
+}
+
+.logo{
+  width: 170px;
+  margin-left: 30px;
+}
+.navbarColor{
+  background-color: #008EC1;
+  color: antiquewhite;
+}
+.colorLink{
+  color: antiquewhite;
+}
+.colorLink:hover{
+  color: rgb(206, 206, 194);
+}
+.borderColor{
+  border-color: #3e7cbe ;
+  border-width: 2px;
+  margin-top: 12px;
+}

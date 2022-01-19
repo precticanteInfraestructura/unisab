@@ -1,0 +1,121 @@
+<div class="registro ">
+  <div class="container containerCard anchoContainer">
+      <h1 class="titulosPrimarios border-bottom text-center">Registrate</h1>
+      <div class="form  ">
+          <div class="container">
+              <!--comienzo formulario-->
+              
+          <!-------Datos personales------->
+          <h2 class="titulosSecundarios text-center">Datos personales</h2>
+          <br><br>
+          <!-- nombre -->
+          <div class="mb-2  row justify-content-md-center">
+              <label for="name" class="col-sm-2 col-form-label">Nombres</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="name">
+              </div>
+            </div>
+          <!-- Apellidos -->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="lastName" class="col-sm-2 col-form-label">Apellidos</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="lastName">
+              </div>
+            </div>
+          <!-- nacimiento -->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="nacimiento" class="col-sm-2 col-form-label">Nacimiento</label>
+              <div class="col-sm-6">
+                <input type="date" class="form-control" id="nacimiento">
+              </div>
+            </div>
+          <!-- cedula -->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="cedula" class="col-sm-2 col-form-label">Cedula</label>
+              <div class="col-sm-6">
+                <input type="number" class="form-control" id="cedula">
+              </div>
+            </div>
+          <!-- correo -->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="email" class="col-sm-2 col-form-label">Correo</label>
+              <div class="col-sm-6">
+                <input type="password" class="form-control" id="email">
+              </div>
+            </div>
+          <!-- contraseña -->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="password" class="col-sm-2 col-form-label">Contraseña</label>
+              <div class="col-sm-6">
+                <input type="password" class="form-control" id="password">
+              </div>
+          </div>
+          <div class="mb-2 row justify-content-md-center">
+              <label for="repitePassword" class="col-sm-2 col-form-label">Repite contraseña</label>
+              <div class="col-sm-6">
+                <input type="password" class="form-control" id="repitePassword">
+              </div>
+            </div>
+          <!-- ----perfil institucional----- -->
+          <h2 class="mt-2 titulosSecundarios text-center">Perfil institucional</h2> <br><br>
+          <!-- area -->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="area" class="col-sm-2 col-form-label">Area</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="area">
+              </div>
+            </div>
+          <!-- cargo -->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="cargo" class="col-sm-2 col-form-label">Cargo</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="cargo">
+              </div>
+            </div>
+          <!-- permiso para crear usuarios -->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="crearUsuario" class="col-sm-2 col-form-label">crear usuarios</label>
+              <div class="col-sm-6">
+                <select class="form-select" aria-label="crearUsuario">
+                  <option selected></option>
+                  <option value="si">si</option>
+                  <option value="no">no</option>
+                </select>
+            </div>
+            </div>
+          <!-- permisos para modificar calendario -->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="permisoCalendario" class="col-sm-2 col-form-label   align-text-top ">Modificar calendario</label>
+              <div class="col-sm-6">
+                <select class="form-select" aria-label="permisoCalendario">
+                  <option selected></option>
+                  <option value="si">si</option>
+                  <option value="no">no</option>
+                </select>
+            </div>
+            </div>
+          <!-- fecha de ingreso-->
+          <div class="mb-2 row justify-content-md-center">
+              <label for="fechaIngreso" class="col-sm-2 col-form-label">Fecha de ingreso</label>
+              <div class="col-sm-6">
+                <input type="date" class="form-control" id="fechaIngreso">
+              </div>
+            </div>
+          <!-- botones -->
+          <div class="container mt-5 text-center">
+              <button type="button" class="btn btn-outline-primary m-2" routerLink='/login'>volver</button>
+          <button type="button" class="btn btn-outline-primary m-2">vaciar</button>
+          <button type="button" class="btn btn-outline-primary m-2" routerLink='/inicio'>guardar</button>
+          </div>
+          </div>
+          
+
+          
+
+
+      </div>
+      <div class="container">
+          <img src="../../../assets/logo/unisabanetaLogo.png" alt="" class="position-absolute bottom-0 start-50 translate-middle-x">
+        </div>
+  </div>
+</div>

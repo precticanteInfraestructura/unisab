@@ -1,0 +1,18 @@
+.descripcion{
+    margin-top: 10px;
+}
+.logo{
+    margin-top: 0;
+    margin-left: 110px;
+}
+.tituloFooter{
+    margin-right: 60px;
+}
+.navbarColor{
+    background-color: #008EC1;
+    color: antiquewhite;
+}
+
+.footerPosition{
+    position: relative;
+}

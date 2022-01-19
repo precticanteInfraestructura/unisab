@@ -1,0 +1,119 @@
+/*cards*/
+.centrarCard{
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.opacidadCard{
+  opacity: 98%;
+}
+
+/*tipografias*/
+
+.tituloSobreImagen{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.letraPequeña{
+  font-size: smaller;
+}
+.tamañoLetraBanner{
+  font-size: 300%;
+}
+.titulosPrimarios{
+  color: #009BDB;
+  font-family: 'Montserrat', sans-serif;
+}
+.titulosSecundarios{
+ 
+font-family: 'Montserrat Hairline', arial;
+}
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Montserrat', sans-serif;
+}
+.letraColorBlanca{
+  color: azure;
+}
+/*fondos*/
+
+.login { 
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./assets/banner/banner-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height: 100vh; 
+}
+.registro { 
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./assets/banner/banner-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height: 100%; 
+}
+.fondoGeneral{
+  background: #d7dbdd5d;
+  background-size: cover;
+  background-position: center;
+  height: auto; 
+  
+}
+
+.backgroundFooter{
+background: #3E78B8;
+}
+
+/*banner*/
+.banner{
+  position: relative;
+  background-position: cover;
+  text-shadow: 3px 3px 4px rgb(7, 7, 7);
+  color: aliceblue;
+}
+.contenidosConTitulos{
+  position: relative;
+  background-position: cover;
+  text-shadow: 3px 3px 4px rgb(7, 7, 7);
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerCard{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 2px  2px #7b7c7c2d;
+  border-radius: 12px;
+  
+}
+.colorToggler{
+  color: aliceblue;
+}
+
+.posicionContainerCard{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.anchoContainer{
+  min-width: 200px;
+  max-width: 600px;
+}
+.centrarLogin{
+  margin-top: 100%;
+  
+}
+.tamañoSubAcordeon{
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tamañoAcordeon{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}

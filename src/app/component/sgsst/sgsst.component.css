@@ -1,0 +1,44 @@
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 1000px;
+}
+li{
+    font-size: 1.5ch;
+    justify-content: center;
+}
+.first-day {
+  
+}
+.day-name{
+    font-weight: bold;  
+}
+.container-fondo{
+    background: rgb(255, 255, 255) ;
+    border: 2px 2px 2px 2px;
+    border-radius: 6px;
+}
+.acordionColor{
+    background-color: #3e78b8;
+    color: aliceblue;
+    
+}
+.acordionColor:hover{
+    color: rgb(178, 178, 179);
+}
+.colorLetra{
+    color: rgb(247, 241, 241);
+    
+}
+.centrarBoton{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tamañoImagenAL{
+    width: auto;
+    height: auto;
+}

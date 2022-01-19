@@ -1,0 +1,288 @@
+<div class="container-fluid fondoGeneral d-sm-none d-md-block">
+  <!-- carrousel -->
+  <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img  src="../../../assets/carrousel/placeholder.png"class="d-block vw-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../../../assets/carrousel/placeholder.png" class="d-block vw-100 " alt="...">
+      </div>
+      <div class="carousel-item tamañoImagen">
+        <img  src="../../../assets/carrousel/placeholder.png" class="d-block vw-100 " alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- fin carrousel -->
+  <div class="container containerCard d-none d-md-block ">
+    <div class="row">
+      <div class="col-8 border ">
+       <!-- comienzo seccion noticia -->    
+       <!--lado izquierdo-->                
+       <!--calendario-->
+       <!--nav-->
+        <div class="colorNavCalendario mt-3">
+          <div>
+            <button (click)="changeMonth(-1)" class=" btn btn-prev float-start ">
+              Antes
+            </button>
+          </div>
+          <div>
+            <button (click)="changeMonth(1)"  class="btn btn-next float-end letraColorBlanca">
+              Siguiente
+            </button>
+          </div>
+          <h3 class="text-center">{{dateSelect | date: 'MMMM, YYYY'}}</h3>
+        </div>
+        <!--dias de la semana-->
+        <div class="tabla d-flex justify-content-center">
+          <ol class="mt-4">
+            <li class="day-name">Lunes</li>
+            <li class="day-name">Martes</li>
+            <li class="day-name">Miercoles</li>
+            <li class="day-name">Jueves</li>
+            <li class="day-name">Viernes</li>
+            <li class="day-name">Sabado</li>
+            <li class="day-name">Domingos</li>
+            <!--dias del mes-->
+            <li class="border">1</li>
+            <li class="border">2</li>
+            <li class="border">3</li>
+            <li class="border">4</li>
+            <li class="border">5</li>
+            <li class="border">6</li>
+            <li class="border">7</li>
+            <li class="border">8</li>
+            <li class="border">9</li>
+            <li class="border">10</li>
+            <li class="border">11</li>
+            <li class="border">12</li>
+            <li class="border">13</li>
+            <li class="border">14</li>
+            <li class="border">15</li>
+            <li class="border">16</li>
+            <li class="border">17</li>
+            <li class="border">18</li>
+            <li class="border">19</li>
+            <li class="border">20</li>
+            <li class="border">21</li>
+            <li class="border">22</li>
+            <li class="border">23</li>
+            <li class="border">24</li>
+            <li class="border">25</li>
+            <li class="border">26</li>
+            <li class="border">27</li>
+            <li class="border">28</li>
+            <li class="border">29</li>
+            <li class="border">30</li>
+            <li class="border">31</li>
+          </ol>
+        </div>
+        <!--fin calendario-->
+        <!--eventros y registro de eventos-->
+        <br>
+        <br>
+        <br>
+        <div class="d-flex position-relative">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>
+        <div class="d-flex position-relative mt-3">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>
+        <div class="d-flex position-relative mt-3">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>
+        <div class="d-flex position-relative mt-3">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>    
+        <div class="d-flex position-relative mt-3 mb-3">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>                                    
+      </div>
+      <div class="col-4 border ">
+        <!-- noticias -->
+        <div class="scrollable mt-3">
+
+        </div>
+        <!-- fin noticias -->
+        <br>
+        <hr>
+        <br>
+        <!-- redes sociales -->
+        <div class="scrollable ">
+          <div class="facebook">
+            <h3 class="text-center">facebook</h3>
+          </div>
+          <!-- publicacion1 -->
+          <div class="container text-center">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FUnisabaneta.colombia%2Fposts%2F4633471603378189&show_text=true&width=500" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
+            <!-- publicacion2   -->
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FUnisabaneta.colombia%2Fposts%2F4632903446768338&show_text=true&width=500" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>    
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- inicio responsive -->
+<div class="container-fluid fondoGeneral  d-sm-block d-md-none">
+<div class="container-fluid fondoGeneral  ">
+  <div class="container containerCard ">
+    <div class="row ">
+      <div class="col">
+        <!--nav-->
+      <div class="colorNavCalendario mt-3">
+        <div>
+          <button (click)="changeMonth(-1)" class=" btn btn-prev float-start ">
+            Antes
+          </button>
+        </div>
+        <div>
+          <button (click)="changeMonth(1)"  class="btn btn-next float-end letraColorBlanca">
+            Siguiente
+          </button>
+        </div>
+        <h3 class="text-center">{{dateSelect | date: 'MMMM, YYYY'}}</h3>
+      </div>
+      <!--dias de la semana-->
+      <div class="tabla d-flex justify-content-center">
+        <ol class="mt-4">
+          <li class="day-name">Lunes</li>
+          <li class="day-name">Martes</li>
+          <li class="day-name">Miercoles</li>
+          <li class="day-name">Jueves</li>
+          <li class="day-name">Viernes</li>
+          <li class="day-name">Sabado</li>
+          <li class="day-name">Domingos</li>
+          <!--dias del mes-->
+          <li class="border">1</li>
+          <li class="border">2</li>
+          <li class="border">3</li>
+          <li class="border">4</li>
+          <li class="border">5</li>
+          <li class="border">6</li>
+          <li class="border">7</li>
+          <li class="border">8</li>
+          <li class="border">9</li>
+          <li class="border">10</li>
+          <li class="border">11</li>
+          <li class="border">12</li>
+          <li class="border">13</li>
+          <li class="border">14</li>
+          <li class="border">15</li>
+          <li class="border">16</li>
+          <li class="border">17</li>
+          <li class="border">18</li>
+          <li class="border">19</li>
+          <li class="border">20</li>
+          <li class="border">21</li>
+          <li class="border">22</li>
+          <li class="border">23</li>
+          <li class="border">24</li>
+          <li class="border">25</li>
+          <li class="border">26</li>
+          <li class="border">27</li>
+          <li class="border">28</li>
+          <li class="border">29</li>
+          <li class="border">30</li>
+          <li class="border">31</li>
+        </ol>
+      </div>
+      <!--fin calendario-->
+        <!--eventros y registro de eventos-->
+        <br>
+        <br>
+        <br>
+        <div class="d-flex position-relative">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>
+        <div class="d-flex position-relative mt-3">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>
+        <div class="d-flex position-relative mt-3">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>
+        <div class="d-flex position-relative mt-3">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>    
+        <div class="d-flex position-relative mt-3 mb-3">
+          <img src="../../../assets/prueba/imagenPequeña.png" class="flex-shrink-0 me-3" alt="...">
+          <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>                                    
+      </div>
+      <div class="col ">
+        <h3 class="text-center">Redes sociales</h3>
+        <!-- redes sociales -->
+        <div class="scrollable ">
+          <div class="facebook">
+            <h3 class="text-center">facebook</h3>
+          </div>
+          <!-- publicacion1 -->
+          <div class="container text-center">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FUnisabaneta.colombia%2Fposts%2F4633471603378189&show_text=true&width=500" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
+            <!-- publicacion2   -->
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FUnisabaneta.colombia%2Fposts%2F4632903446768338&show_text=true&width=500" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>    
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

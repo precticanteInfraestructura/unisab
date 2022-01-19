@@ -1,0 +1,53 @@
+
+.fondo{
+  background: azure;
+
+}
+.marginTop{
+    position: absolute;
+  }
+.caja{
+  margin: auto;
+  background: #008EC1;
+  color: beige;
+  border-radius: 5px;
+
+}
+.redesSociales{
+  width: 300px;
+}
+ol{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  width: 1000px;
+  height: 600px;
+}
+li{
+  font-size: 1.5ch;
+  text-align: start;
+  
+  
+}
+.first-day {
+
+}
+.day-name{
+  font-weight: bold;
+  margin-bottom:0px;
+}
+.colorNavCalendario{
+  background: #008EC1;
+  color: beige;
+}
+.scrollable{
+  height: 600px;
+   overflow: scroll; 
+}
+
+.facebook{
+  background: rgba(224, 222, 222, 0.555);
+}

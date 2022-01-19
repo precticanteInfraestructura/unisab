@@ -1,0 +1,16 @@
+.acordionColor{
+    background-color: #3e78b8;
+    color: aliceblue;
+    
+}
+.acordionColor:hover{
+    color: rgb(178, 178, 179);
+}
+.colorLetra{
+    color: rgb(247, 241, 241);
+    
+}
+.centrarBoton{
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,16 @@
+
+.titulosPrimarios{
+    color: #009BDB;
+    font-family: 'Montserrat', sans-serif;
+}
+  .titulosSecundarios{
+    color: #3E78B8;
+    font-weight: bold;
+    font-family: 'Montserrat Hairline', arial;
+}
+  .textoNormal{
+    font-family: 'Montserrat', sans-serif;
+}
+  .opacidadCards{
+    opacity: 93%;
+}
